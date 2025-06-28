@@ -3,9 +3,9 @@
 	"id": "basicallystopwatch",
 	"version": "${version}",
 	"name": "BasicallyStopwatch",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds a simple timer to your HUD",
 	"authors": [
-		"Me!"
+		"DexFlex_YT"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -30,8 +30,8 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21",
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.19",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
