@@ -1,7 +1,6 @@
 package org.dexflex.basicallystopwatch;
 
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.util.InputUtil;
 import org.lwjgl.glfw.GLFW;
 

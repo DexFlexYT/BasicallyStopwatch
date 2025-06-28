@@ -53,7 +53,6 @@ public class TimerState {
 
     public long getLastInteraction() { return lastInteraction; }
     public boolean isRunning() { return running; }
-    public boolean isPaused() { return paused; }
 
     public String format(long ms) {
         long sec = ms / 1000, mins = sec / 60;
