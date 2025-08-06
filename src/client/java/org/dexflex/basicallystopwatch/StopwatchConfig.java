@@ -8,9 +8,9 @@ import java.io.FileReader;
 import java.io.FileWriter;
 
 public class StopwatchConfig {
-    public float x = 0.5f;
-    public float y = 0.5f;
-    public String textColor = "#FFFFFF";
+    public float x = 0.95f;
+    public float y = 0.7f;
+    public String textColor = "#FF005A";
 
     private static final File CONFIG_FILE = new File("config/basicallystopwatch.json");
 

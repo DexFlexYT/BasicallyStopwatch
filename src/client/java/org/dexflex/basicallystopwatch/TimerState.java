@@ -63,4 +63,10 @@ public class TimerState {
         try { return Integer.decode(hex); }
         catch (Exception e) { return 0xFFFFFF; }
     }
+
+    public boolean isIdle() {
+        // 3000ms = 3 seconds
+        return !running && !paused && System.currentTimeMillis() - lastInteraction > 3000;
+    }
+
 }
